@@ -1,20 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        String name = "John";
-        int age = 23;
-        boolean myBool = false;
-        char myLetter = 'l';
-        String firstName = "John ";
-        String lastName = "Doe";
-        String fullName = firstName  +  lastName;
-        int x = 5, y = 6, z = 50;
-
-        System.out.println(myBool);
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(myLetter);
-        System.out.println("Hello " + name);
-        System.out.println(fullName);
-        System.out.println(x + y + z);
+        int items = 50;
+        float costPerItem = 9.99f;
+        float totalCost = items * costPerItem;
+        char currency = '$';
+        
+        // Print variables
+        System.out.println("Number of items: " + items);
+        System.out.println("Cost per item: " + costPerItem + currency);
+        System.out.println("Total cost = " + totalCost + currency);
     }
   }
