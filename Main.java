@@ -7,8 +7,7 @@ public class Main {
         String firstName = "John ";
         String lastName = "Doe";
         String fullName = firstName  +  lastName;
-        int x = 5;
-        int y = 6;
+        int x = 5, y = 6, z = 50;
 
         System.out.println(myBool);
         System.out.println(name);
@@ -16,6 +15,6 @@ public class Main {
         System.out.println(myLetter);
         System.out.println("Hello " + name);
         System.out.println(fullName);
-        System.out.println(x + y);
+        System.out.println(x + y + z);
     }
   }
